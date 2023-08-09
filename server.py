@@ -5,8 +5,8 @@ from datetime import datetime
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-HOST = "0.0.0.0"
-PORT = 12345
+HOST = ""
+PORT = 80
 server_socket.bind((HOST, PORT))
 server_socket.listen()
 
